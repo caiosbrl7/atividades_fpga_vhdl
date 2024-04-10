@@ -1,0 +1,37 @@
+|ShiftRegisterDir
+clk => temp_reg[0].CLK
+clk => temp_reg[1].CLK
+clk => temp_reg[2].CLK
+clk => temp_reg[3].CLK
+clk => temp_reg[4].CLK
+clk => temp_reg[5].CLK
+clk => temp_reg[6].CLK
+clk => temp_reg[7].CLK
+reset => temp_reg[0].ACLR
+reset => temp_reg[1].ACLR
+reset => temp_reg[2].ACLR
+reset => temp_reg[3].ACLR
+reset => temp_reg[4].ACLR
+reset => temp_reg[5].ACLR
+reset => temp_reg[6].ACLR
+reset => temp_reg[7].ACLR
+new_data => temp_reg.DATAA
+new_data => temp_reg.DATAB
+dir => temp_reg.OUTPUTSELECT
+dir => temp_reg.OUTPUTSELECT
+dir => temp_reg.OUTPUTSELECT
+dir => temp_reg.OUTPUTSELECT
+dir => temp_reg.OUTPUTSELECT
+dir => temp_reg.OUTPUTSELECT
+dir => temp_reg.OUTPUTSELECT
+dir => temp_reg.OUTPUTSELECT
+shift_out[0] <= temp_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+shift_out[1] <= temp_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+shift_out[2] <= temp_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+shift_out[3] <= temp_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+shift_out[4] <= temp_reg[4].DB_MAX_OUTPUT_PORT_TYPE
+shift_out[5] <= temp_reg[5].DB_MAX_OUTPUT_PORT_TYPE
+shift_out[6] <= temp_reg[6].DB_MAX_OUTPUT_PORT_TYPE
+shift_out[7] <= temp_reg[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

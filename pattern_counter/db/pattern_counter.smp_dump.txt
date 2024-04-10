@@ -1,0 +1,18 @@
+
+State Machine - |pattern_counter|next_state
+Name next_state.s1 next_state.s6_second next_state.s5 next_state.s2 next_state.s6_first next_state.s8 
+next_state.s8 0 0 0 0 0 0 
+next_state.s6_first 0 0 0 0 1 1 
+next_state.s2 0 0 0 1 0 1 
+next_state.s5 0 0 1 0 0 1 
+next_state.s6_second 0 1 0 0 0 1 
+next_state.s1 1 0 0 0 0 1 
+
+State Machine - |pattern_counter|state
+Name state.s1 state.s6_second state.s5 state.s2 state.s6_first state.s8 
+state.s8 0 0 0 0 0 0 
+state.s6_first 0 0 0 0 1 1 
+state.s2 0 0 0 1 0 1 
+state.s5 0 0 1 0 0 1 
+state.s6_second 0 1 0 0 0 1 
+state.s1 1 0 0 0 0 1 
